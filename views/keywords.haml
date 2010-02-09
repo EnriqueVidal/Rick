@@ -1,0 +1,13 @@
+#keywords
+  %table
+    %thead
+      %tr
+        %th Keyword
+        %th Possible Responses
+    %tbody    
+      - @keywords.each do |keyword|
+        %tr
+          %td
+            %a{:href => "/keyword/#{keyword.id}" }
+              = keyword.keyword 
+          %td= keyword.responses.count
