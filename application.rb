@@ -1,4 +1,3 @@
-
 set :database, 'sqlite://bot.db'
 
 # Requiring migrations
