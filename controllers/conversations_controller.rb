@@ -1,11 +1,7 @@
-bot       =  Bot.new( :name => 'rick' )
-reload  = false
+bot = nil
 
 get '/conversation' do
-  if reload == true
-    bot =  Bot.new( :name => 'rick' )
-    reload = false
-  end
+  bot =  Bot.new( :name => 'rick' )
   
   @conversation = {}
   @conversation[:response]  = bot.greeting
