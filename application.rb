@@ -1,3 +1,6 @@
+require 'sinatra/sequel'
+require 'haml'
+
 set :database, 'sqlite://bot.db'
 
 # Requiring migrations
