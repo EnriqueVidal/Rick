@@ -88,7 +88,7 @@ class Bot
             
             # Then substitute the text after the placeholder, with
             # the pronouns switched
-            phrase.sub('*', WordPlay.switch_pronouns(matching_section))
+            phrase.sub('*', WordPlay.switch_pronouns(matching_section)) if !phrase.nil?
           end
         else
           # No placeholders? Just add the prases to the array
