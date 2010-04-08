@@ -3,7 +3,7 @@ function checkKey(e)
 	var key;
 	var keychar;
 	var numcheck;
-	var sender_text_field = $("input#sender_text_field")[0];
+	var sender_text_field = $("input#say")[0];
 
 	if ( window.event ) key = e.keyCode; // IE
 	else if ( e.which ) key = e.which; 	// Netscape/Firefox/Opera
@@ -20,18 +20,18 @@ function checkKey(e)
 
 function sendMsg()
 {
-	var message = $("#sender_text_field")[0].value;
-	var msgBox	= $("#message_panel")[0];
+	var message = $("#say")[0].value;
+	var msgBox	= $("#chat_window")[0];
 	
 	if ( message.replace(/\s|\t/g, '') != '' )
 		$.post("/conversation", { phrase: message }, function(data) {
-		      $("#server_message").html(
-		        $("#server_message").html() +
+		      $("#chat_window").html(
+		        $("#chat_window").html() +
 		        "<p> You said: " + message +"</p>" +
 		        "<p>" + data + "</p>"
 		      );
 						msgBox.scrollTop = msgBox.scrollHeight;
 		    });
 		
-  $("#sender_text_field")[0].value = "";
+  $("#say")[0].value = "";
 }

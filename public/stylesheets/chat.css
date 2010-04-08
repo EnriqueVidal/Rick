@@ -1,0 +1,65 @@
+/*======= css resets =======*/
+html,body,div,form,img, h1, h2, h3, h4, h5, h6,
+ iframe, p, span, ul, ol, li, fieldset, legend, hr {
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+ul{
+	text-indent:0px;
+	list-style-type:none;
+}
+a{
+	outline:0px;
+}
+body{
+	font-size:.88em;
+	font-family: "Lucida Grande" Arial, Helvetica, "Sans-serif";
+}
+
+#chat_window p
+{
+	font-size:12px;	
+	color:#006600;
+}
+
+#chat{
+	background-image: url('../images/chat_background.png');
+	width:360px;
+	height:300px;
+	text-align:left;
+	overflow:hidden;
+}
+#chat #chat_window{
+	width:320px;
+	height:180px;
+	margin-top:56px;
+	margin-left:28px;
+	border:0px;
+	overflow:auto;
+	color:black;
+	text-align:left;
+	clear:both;
+}
+#chat #say {
+background-color:transparent;
+border:0 none;
+display:inline;
+float:left;
+font-size:13px;
+line-height:13px;
+margin-left:10px;
+margin-top:34px;
+padding-left:5px;
+padding-top:4px;
+width:290px;
+}
+#chat #chat_send{
+	margin-top:29px;
+	margin-left:20px;
+	display:block;
+	float:left;
+	display:inline;
+	height:25px;
+	width:43px;
+}

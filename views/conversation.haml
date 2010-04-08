@@ -1,7 +1,10 @@
-#message_panel
-  #server_message
+#chat
+  #chat_window
     %p= @conversation[:name] + ' says: ' + @conversation[:response]
   
-#message_sender
-  %input{ :id => 'sender_text_field', :maxlength => 50, :cols => 5, :onkeypress => 'return checkKey(event);' }
-  %input{ :id => 'sender_button', :type => 'button', :onclick => 'sendMsg();' }
+  #message_sender
+    %input#say{ :type => "text", :name => "say", :onkeypress => 'return checkKey(event);' }
+    %a#chat_send{ :href => "#", :onclick => 'sendMsg();' }
+
+%script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" }
+%script{ :type => "text/javascript", :src => "/javascript/application.js" }
