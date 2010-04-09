@@ -40,6 +40,7 @@ body{
 	color:black;
 	text-align:left;
 	clear:both;
+	font-family:Arial, Helvetica, Verdana;
 }
 #chat #say {
 background-color:transparent;
@@ -56,7 +57,7 @@ width:290px;
 }
 #chat #chat_send{
 	margin-top:29px;
-	margin-left:20px;
+	margin-left:5px;
 	display:block;
 	float:left;
 	display:inline;
