@@ -1,0 +1,9 @@
+%h1 Edit Keyword
+
+%p
+  %label{ :for => :keyword } Keyword
+  %input{ :name => :keyword, :value => @keyword.keyword }
+  
+%p
+  %label{ :for => :response } Description
+  %textarea{ :name => :response }= @keyword.responses.first.response

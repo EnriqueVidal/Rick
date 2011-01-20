@@ -1,0 +1,22 @@
+- if @keyword.nil?
+  %h3 The keyword you tried asked for does not exist
+
+- else
+
+  #keyword
+    %label{ :for => 'keyword' }
+      Keyword:
+    %p= @keyword.keyword
+  
+    %table
+      %tr
+        %td Responses
+      - @keyword.responses.each do |response|
+        %tr
+          %td= response.response
+          
+
+%a{ :href => '/keywords' } Go Back to Keyword List 
+|
+%a{ :href => "/keyword/#{@keyword.id}/edit"} Edit keyword
+    

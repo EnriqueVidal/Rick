@@ -1,0 +1,100 @@
+responses:
+  -
+    keyword_id: 1
+    response: Te refieres a lenguages de programacion o te refieres a idiomas?
+  -
+    keyword_id: 2
+    response: Nuestro personal habla español e ingles, tambien tenemos personal que habla frances
+  -
+    keyword_id: 3
+    response: Programamos en Rails, PHP, CSS, XHTM, XML, JavaScript, SQL, Ruby y algunos otros lenguages segun el proyecto para mas informacion escriba a hello@cloverinteractive.com
+  -
+    keyword_id: 4
+    response: Nuestro servidores son Linux y tienen mas no estan limitados a Apache 2.2, Perl, Python, PHP 5, MySQL 5, Rails 2.3.5, Sinatra and Phushion Passenger esto podria variar si el cliente solicita un sistema operativo diferente
+  -
+    keyword_id: 5
+    response: En general trabajamos con MySQL pero tambien podemos trabajar con PostgreSQL
+  -
+    keyword_id: 6
+    response: Que tenga un buen dia
+  -
+    keyword_id: 6
+    response: Dejame saber si aun puedo ser de utilidad
+  -
+    keyword_id:  7
+    response: Estoy bien gracias
+  -
+    keyword_id: 8
+    response: Que tal?
+  -
+    keyword_id: 9
+    response: Como te va?
+  -
+    keyword_id: 9
+    response: Bien, que tal tu?
+  -
+    keyword_id: 10
+    response: Hola * gusto en conocerte
+  -
+    keyword_id: 11
+    response: El gusto es mio :)
+  -
+    keyword_id: 12
+    response: No hay necesidad de disculparse
+  -
+    keyword_id: 13
+    response: No necesita agradecerme, adoro ayudar
+  -
+    keyword_id: 14
+    response: Como es que es diferente?
+  -
+    keyword_id: 14
+    response: Que ha cambiado?
+  -
+    keyword_id: 15
+    response: Excelente!
+  -
+    keyword_id: 16
+    response: Cuentame de  tu familia
+  -
+    keyword_id: 17
+    response: Que te hace pensar que soy *?
+  -
+    keyword_id: 17
+    response: Estas seguro que soy *?
+  -
+    keyword_id: 18
+    response: Esta bien.
+  -
+    keyword_id: 19
+    rsponse: Por que te gusta *?
+  -
+    keyword_id: 19
+    response: Wow! A mi me gusta * tambien
+  -
+    keyword_id: 20
+    response: Hacemos lo posible por mantener nuestro uptime alto hasta ahora no hemos tenido downtime :)
+  -
+    keyword_id: 21
+    response: Contamos con diferentes planes, en cual estarias interesado? basico, intermedio o advanzado. Todos nuestros paquetes vienen con soporte tecnico gratis, tambien puedes preguntar por nuestras soluciones a medida
+  -
+    keyword_id: 22
+    response: Nuestro plan basico incluye 1G Web, 50 cuentas de correo de 7GB cada una gestionadas por google apps, 1 base de datos, 20 subdominios y 10G de trafico mensual. Su precio es $50 dolares anuales
+  -
+    keyword_id: 23
+    response: Nuestro plan intermendio cuenta con 2G Web, 50 cuentas de correo de 7GB cada una gestionadas por google apps, 2 bases de datos, 20 subdominios y 30G de trafico mensual. Su precio es de $100 dolares anuales
+  -
+    keyword_id: 24
+    response: Nuestro plan avanzado viene con 5G para Web, 50 cuentas de correo de 7GB cada una gestionadas por google apps, 5 bases de datos, 20 subdominios, 50G de trafico mensual. Su precio es $200 dolares anuales
+  -
+    keyword_id: 25
+    response: Principalmente trabajamos con linux, sin embargo podriamos trabajar con Windows a petición del usuario.
+  -
+    keyword_id: 26
+    response: Tenemos diferentes soluciones a medida las cuales incluyen pero no se limitan a Administracion de Sistemas, Sistemas de Telefonia VoIP, Desarrollo Web, Instalacion de Servidores medida para mas informacion envie sus necesidades a hello@cloverinteractive.com
+  -
+    keyword_id: 27
+    response: Facilitamos tus tareas para permitirte enfocarte en fortalecer tu negocio y potenciar tu actividad. Te apoyamos con arte y destreza técnica, experiencia en hardware, software, conexión a redes e internet, sistemas, auditorias de seguridad, automatización; así como con nuestro expertise en estrategia, diseño, multimedia y comunicación
+  -
+    keyword_id: 28
+    response: CloverInteractive es lo que antes fue el proyecto ThinkTank, aun seguimos impulsamos empresas a través de las ventajas que Internet ofrece. Desarrollamos servicios, soluciones y hasta herramientas gratuitas para empresas; permitiéndoles reducir costos, automatizar procesos, incrementar su productividad, valor y economía.

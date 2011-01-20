@@ -1,0 +1,55 @@
+presubs:
+-
+  word: amo
+  substitution: gusta
+-
+  word: perdoname
+  substitution: perdon
+-
+  word: plan
+  substitution: precios
+-
+  word: disculpa
+  substitution: perdon
+-
+  word: hasta luego
+  substitution: adios
+-
+  word: nos vemos
+  substitution: adios
+-
+  word: como te va?
+  substitution: como estas
+-
+  word: que tal?
+  substitution: como estas?
+-
+  word: sorprendente
+  substitution: si
+-
+  word: hosting
+  substitution: precios
+-
+  word: grandioso
+  substitution: si
+-
+  word: bien
+  substitution: si
+- 
+  word: red
+  substitution: uptime
+-
+  word: bye
+  substitution: adios
+-
+  word: mi nombre es
+  substitution: me llamo
+-
+  word: adoro
+  substitution: me gusta
+-
+  word: lenguajes
+  substitution: lenguaje
+- 
+  word: idioma
+  substitution: idiomas
